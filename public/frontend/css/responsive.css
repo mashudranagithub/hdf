@@ -1,0 +1,99 @@
+@media screen and (max-width:576px){
+    header#Header{
+        position:static;
+    }
+    
+    .header-top a{
+        font-size:12px;
+        letter-spacing:0.2px;
+    }
+    
+    .header-main,
+    .header-main.sticky{
+        z-index: 999;
+        padding-bottom: 15px;
+    }
+    
+    nav.navbar.navbar-expand-lg.navbar-light{
+        z-index:9999;
+    }
+    
+    .navbar-light .navbar-nav .nav-item .nav-link{
+        background:#fff;
+    }
+    
+    .header-main.sticky .navbar-light .navbar-toggler {
+        margin-top: 5px;
+        cursor: pointer;
+    }
+    
+    span.name{
+        font-size:12px;
+        padding:0;
+    }
+    
+    .tp-caption.largeHeadingWhite.sfl.str.tp-resizeme.start{
+        margin-top:45px!important;
+    }
+    
+    span#main{
+        font-size:20px!important;
+    }
+    
+    .navbar-light .navbar-toggler{
+        margin-top:5px;
+    }
+    
+    .contact-address p {
+        width: 80%;
+        font-size:12px;
+    }
+    
+    .contact-address h5{
+        font-size:18px;
+    }
+    
+    .footer-main {
+        overflow:  hidden;
+    }
+    
+    .footer-social-menu ul li {
+        padding: 0 5px;
+    }
+    
+    #Latest_notice span#main {
+        font-size:  12px!important;
+        line-height:  25px;
+        padding: 5px;
+    }
+    
+    p.copyright-text, p.developed-by {
+        font-size: 12px;
+        float: left!important;
+    }
+    
+    .header-main {
+        background:  #fff!important;
+    }
+    
+    #Header .cover {
+        height: auto!important;
+        background: #fff!important;
+        padding-bottom: 20px;
+    }
+    
+    ul.navbar-nav.mr-auto li.nav-item {
+        line-height: 30px;
+    }
+    
+    section#Mission-page, section#Management-page, section#Staff-page {
+        padding: 10px 0;
+    }
+}
+
+
+
+
+@media screen and (max-width:768px){
+    
+}
